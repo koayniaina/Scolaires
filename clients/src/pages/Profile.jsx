@@ -9,7 +9,7 @@ const Profile = () => {
       <h2>Page Profil</h2>
       {user ? (
         <div>
-          <p><strong>Nom :</strong> {user.name || "Utilisateur"}</p>
+          <p><strong>Nom :</strong> {user.name}</p>
           <p><strong>Rôle :</strong> {user.role}</p>
         </div>
       ) : (
